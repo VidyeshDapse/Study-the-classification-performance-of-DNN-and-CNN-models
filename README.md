@@ -32,38 +32,13 @@ CNN model and DNN models have nearly same performance.
 
 Performance with Various choice of hidden layer dimension
 Number of filters = 128
-
-hidden layer dimension -----------Training accuracy----------Test accuracy
-
-256                     0.9900              0.9734
-128                     0.9902              0.9709
-64                      0.9874              0.9667
-32                      0.9800              0.9592
-Performance with Various choice of filter size
 CNN model:
-
 Number of neurons in hidden layer = 256 Number of filters = 128
-
-filter Size --------------------Training accuracy------------Test accuracy
-
-4 x 4               0.9887              0.9705
-3 X 3               0.9900              0.9734
-2 X 2               0.9907              0.9722   
-
 Accuracy reamins nearly same after 10 iterations.
 
 Performance with Various choice of number of filters
 CNN model:
-
 Number of neurons in hidden layer = 256
-
-Number of filters----------------Training accuracy------------Test accuracy
-
-128                     0.9900              0.9734
-64                      0.9916              0.9729
-32                      0.9935              0.9765
-16                      0.9946              0.9778
-
 With decrease in number of filters, performance of models improves.
 
 Observations:
